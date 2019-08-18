@@ -1,4 +1,4 @@
-class EmailAddressParser()
+class EmailAddressParser
   
   
 end
