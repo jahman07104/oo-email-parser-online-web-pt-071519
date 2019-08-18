@@ -4,18 +4,15 @@ class EmailAddressParser
   def initialize(csv_emails)
    @csv_emails = csv_emails
   end
-end
 
-def parse
   def parse 
     csv_emails.split.collect do |address|
       address.split(',') 
-    end
+  end
     .flatten.uniq 
-  end 
-end
+  end
 end 
-end
+
 
 # Build a class EmailParser that accepts a string of unformatted 
 # emails. The parse method on the class should separate them into
