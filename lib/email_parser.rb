@@ -7,7 +7,13 @@ class EmailAddressParser
 end
 
 def parse
-
+  def parse 
+    csv_emails.split.collect do |address|
+      address.split(',') 
+    end
+    .flatten.uniq 
+  end 
+end 
 end
 
 # Build a class EmailParser that accepts a string of unformatted 
