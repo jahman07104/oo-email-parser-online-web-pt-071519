@@ -3,6 +3,8 @@ class EmailAddressParser
   
 end
 
+def parse
+
 
 
 # Build a class EmailParser that accepts a string of unformatted 
